@@ -1,0 +1,56 @@
+/*
+ * CS 260
+ * HW 2
+ *
+ */
+
+
+#define MAX_LEN 100
+
+int FIRST(int * L){
+	return L[0];
+}
+
+int END(){
+	int i = 0;
+	while (L[i] != NULL){
+		i++;
+	}
+	return L[i];
+}
+
+
+int RETRIEVE(){
+
+}
+
+int LOCATE(){
+
+}
+
+int NEXT(){
+
+}
+
+int PREVEIOUS(){
+
+}
+
+int INSERT(){
+
+}
+
+int DELETE(){
+
+}
+
+int MAKENULL(){
+
+}
+
+int main(void){
+
+	int L [100];
+	print("%d",L[0]);
+
+}
